@@ -153,5 +153,23 @@
     font-weight: 900;
 }
 
+.border_text{
+  background: #f4f4f4;
+    margin: 5px;
+    padding: 20px 20px;
+    cursor: pointer;
+    border-left: 10px solid green;
+    border-top-left-radius: 8px;
+    border-bottom-left-radius: 8px;
+}
 
+/* .border_actual_text{
+  padding-right: 15px;
+  border-left: 5px solid green;
+}
+
+.border_actual_text p{
+  padding-right: 15px;
+  border-left: 5px solid green;
+} */
 
