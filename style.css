@@ -257,6 +257,27 @@
   border: 2px solid #4CAF50;
 }
 
+.footer_button{
+  background-color: #4CAF50; /* Green */
+  border: none;
+  color: white;
+  padding: 2px 8px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  
+  cursor: pointer;
+}
+
+.footer_button1{
+  background-color: white; 
+  color: gray; 
+  font-size: 16px;
+  font-weight: 900;
+  border: 1px solid gray;
+}
+
+
 .third_div_container{
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
@@ -308,19 +329,19 @@
 
 .footer .box-container .box .links{
   padding:1rem 0;
+  
 }
 
 .footer .box-container .box .links a{
   display: block;
   padding:.5rem 0;
   font-size: 1.7rem;
-  color:#333;
+  color:rgb(163, 162, 162);
+  text-decoration: none;
+  font-size: 14px;
 }
 
-.footer .box-container .box .links a:hover{
-  text-decoration: underline;
-  color:var(--green);
-}
+
 
 .footer .credit{
   padding:2.5rem 1rem;
@@ -333,4 +354,28 @@
 .footer .credit span{
   color:var(--green);
 }
+
+.icon {
+  
+  overflow: hidden;
+
+}
+
+.icon:before {
+  position: absolute;
+  top: 0;
+  left: -500px;
+  content: "";
+  width: 120px;
+  height: 500px;
+  background: rgba(255, 255, 255, 0.6);
+  transform: skew(-50deg);
+  /* transition: 1s; */
+  animation: shine 3s ease infinite;
+}
+
+/* @keyframes shine {
+  from {left: 900px;}
+  to {left: 950px;}
+} */
 
