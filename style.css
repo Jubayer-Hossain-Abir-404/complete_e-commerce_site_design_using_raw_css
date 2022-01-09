@@ -55,7 +55,7 @@
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     grid-template-rows: auto;
-    grid-gap: 0px;
+    grid-gap: 3px;
 }
 
 .wrapper{
@@ -89,6 +89,17 @@
 
 .move_left:hover{
     left:7px;
+}
+
+.move_top{
+  position: relative;
+    -webkit-transition-duration:1s;
+   -webkit-transition-timing-function:linear;
+   -webkit-transition-delay:0s;
+}
+
+.move_top:hover{
+  bottom:7px;
 }
 
 
