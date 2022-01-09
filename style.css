@@ -51,6 +51,13 @@
     grid-gap: 10px;
 }
 
+.second_div_container{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: auto;
+    grid-gap: 0px;
+}
+
 .wrapper{
 	display: flex;
 	flex-wrap: nowrap;
@@ -83,6 +90,8 @@
 .move_left:hover{
     left:7px;
 }
+
+
 
 .sidebar .nav-bar li a{
 	color:black;
@@ -126,7 +135,8 @@
     background-color: #4CAF50; /* Green */
     border: none;
     color: white;
-    padding: 15px 32px;
+    /* height then width */
+    padding: 15px 134px;   
     text-align: center;
     text-decoration: none;
     display: inline-block;
@@ -137,7 +147,10 @@
 
 .button_white{
     background-color: white;
-    color:black
+    color:black;
+    border: 1px solid #e7e7e7;
+    font-size: 18px;
+    font-weight: 900;
 }
 
 
